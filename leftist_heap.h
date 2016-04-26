@@ -32,6 +32,8 @@ leftist_node ** list_min (float , leftist_node *);
 
 leftist_node * heapify (leftist_node **);
 
+
+
 void pre_ordem (leftist_node *);
 
 #endif /* LEFTIST_HEAP_H_ */
