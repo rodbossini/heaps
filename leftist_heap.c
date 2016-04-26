@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-leftist_node * create_leftist_node (int key){
+leftist_node * create_new_leftist_node (int key){
 	leftist_node * aux = malloc (sizeof (leftist_node));
 	aux->left = NULL;
 	aux->right = NULL;
@@ -55,7 +55,7 @@ leftist_node * mesh (leftist_node * h1, leftist_node * h2){
 }
 
 leftist_node * insert (int key , leftist_node * h){
-	leftist_node * novo = create_leftist_node(key);
+	leftist_node * novo = create_new_leftist_node(key);
 	return meld (novo, h);
 }
 

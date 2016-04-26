@@ -10,12 +10,6 @@
 #include <stdlib.h>
 int main(int argc, char **argv) {
 
-	leftist_node * raiz = create_leftist_node(0);
-
-	int i;
-	for (i = 1; i <= 4; i++){
-		raiz = insert(i, raiz);
-	}
-	pre_ordem(raiz);
-
+	//test_leftist_heaps();
+	test_union_find();
 }

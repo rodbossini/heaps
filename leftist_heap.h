@@ -16,7 +16,7 @@ typedef struct leftist_node{
 }leftist_node;
 
 
-leftist_node * create_leftist_node (int);
+leftist_node * create_new_leftist_node (int);
 
 leftist_node * find_min (leftist_node *);
 
