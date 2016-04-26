@@ -34,5 +34,4 @@ leftist_node * heapify (leftist_node **);
 
 void pre_ordem (leftist_node *);
 
-void yet_another ();
 #endif /* LEFTIST_HEAP_H_ */
